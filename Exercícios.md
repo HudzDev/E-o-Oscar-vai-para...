@@ -64,34 +64,34 @@ db.registros.find({nome_do_filme: /Central/})</pre>
 
 ## Inclua no banco 3 filmes que nunca foram nem nomeados ao Oscar, mas que merecem ser.
 
-<pre>db.registros.insertMany([ \
-    { \
-        "id_registro": 19831983, \
-        "ano_filmagem": 1983, \
-        "ano_cerimonia": 1984, \
-        "categoria": "BEST PICTURE", \
-        "nome_do_indicado": "Brian De Palma", \
-        "nome_do_filme": "Scarface", \
-        "vencedor": 1 \
-    }, \
-    { \
-        "id_registro": 20072007, \
-        "ano_filmagem": 2007, \
-        "ano_cerimonia": 2008, \
-        "categoria": "BEST PICTURE", \
-        "nome_do_indicado": "José Padilha", \
-        "nome_do_filme": "Tropa de Elite", \
-        "vencedor": 1 \
-    }, \
-    { \
-        "id_registro": 20082008, \
-        "ano_filmagem": 2008, \
-        "ano_cerimonia": 2009, \
-        "categoria": "ACTOR IN A LEADING ROLE", \
-        "nome_do_indicado": "Robert Downey Jr.", \
-        "nome_do_filme": "Homem de Ferro", \
-        "vencedor": 1 \
-    } \
+<pre>db.registros.insertMany([ 
+    { 
+        "id_registro": 19831983, 
+        "ano_filmagem": 1983, 
+        "ano_cerimonia": 1984, 
+        "categoria": "BEST PICTURE", 
+        "nome_do_indicado": "Brian De Palma", 
+        "nome_do_filme": "Scarface", 
+        "vencedor": 1 
+    }, 
+    { 
+        "id_registro": 20072007, 
+        "ano_filmagem": 2007, 
+        "ano_cerimonia": 2008, 
+        "categoria": "BEST PICTURE", 
+        "nome_do_indicado": "José Padilha", 
+        "nome_do_filme": "Tropa de Elite", 
+        "vencedor": 1 
+    }, 
+    { 
+        "id_registro": 20082008, 
+        "ano_filmagem": 2008, 
+        "ano_cerimonia": 2009, 
+        "categoria": "ACTOR IN A LEADING ROLE", 
+        "nome_do_indicado": "Robert Downey Jr.", 
+        "nome_do_filme": "Homem de Ferro", 
+        "vencedor": 1 
+    } 
 ]);</pre>
 
 
