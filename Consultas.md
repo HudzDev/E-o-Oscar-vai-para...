@@ -1,7 +1,3 @@
-# E o Oscar vai para...?
-
-<pre>Exercícios usando MongoDB, com base no banco de dados passado pelo Professor.</pre>
-
 ## Quantas vezes Natalie Portman foi indicada ao Oscar?
 
 <pre>R: Foi indicada 3 vezes.
